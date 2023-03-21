@@ -10,3 +10,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.content-body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(57, 240, 247), rgb(194, 241, 234));
+    height: 100vh;
+    
+}
+.todoList{
+    
+    height: 100%;
+    width: 80%;
+}
+.task{
+   display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+   
+    justify-content:end;
+    border-width: 1px;
+    background-color: rgb(241, 208, 177);
+
+    
+}
+
+.Checkedtask{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    color:white;
+    justify-content:end;
+    border-width: 1px;
+    background-color: rgb(121, 121, 121);
+}
